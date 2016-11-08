@@ -1,6 +1,6 @@
 <?php
 
-include 'r-remote-api.php';
+include 'r-remote-api-client.php';
 
 //$remote_api_url = "http://localhost/r-remote-api/server/?";
 $remote_api_url = "http://192.168.11.115/r-remote-api.php?";
