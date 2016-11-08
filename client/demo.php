@@ -11,9 +11,3 @@ $rscript = file_get_contents("demo-message.R");
 $parameters = array(20, 80);
 
 echo "Result: " . rRemoteAPI($remote_api_url, $rscript, $parameters);
-
-// ---------------------------
-// 顯示圖表的展示
-$rscript_plot = file_get_contents("demo-plot.R");
-
-echo '<img src="' . rRemoteAPI($remote_api_url, $rscript_plot) . '" />';
