@@ -16,7 +16,7 @@ echo "Result: " . rRemoteAPI($remote_api_url, $rscript, $parameters);
 // 顯示圖表的展示
 $rscript_plot = file_get_contents("demo-plot.R");
 
-echo '<img src="' . rRemoteAPI($remote_api_url, $rscript_plot) . '" border="1" />';
+echo '<img src="' . rRemoteAPI($remote_api_url, $rscript_plot) . '" />';
 
 // ---------------------------
 // 文本探勘的展示
